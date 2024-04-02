@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная / ClickTalk</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>сайта</title>
 </head>
 <body>
- <div class="header__menu">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__menu">
                 <div class="header__logo">
-                    <img src="images/logo.png" height="56px" width="56px" style="margin-top: 0.05%; margin-left: -5.8%; border-radius: 10px;"> 
-                    <h1 class="Header-h1" style="display: block; margin-top: 2%; color: white;"> ClickTalk </h1>
+                    <img src="./assets/друзья.svg" alt="">
                 </div>
                 <div class="header__stroka">
-                    <!-- Придумать разные случайные новости на строку-->
-                    <marquee>Новости на сегодня: Павел Уров опять убрал стену!</marquee>
+                    <marquee>sdngjkhjsdghjdfoigjiodf</marquee>
                 </div>
                 <div class="header__mypage">
-                    <img src="images/User_circle.svg">
-                    <h3 style="color: white;">Моя страница</h3>
+                    <img src="./assets/профиль.svg" alt="">
+                    <p>Моя страницы</p>
                 </div>
             </div>
-        </div>
-    
+        </header>
         <main class="main">
             <div class="container">
                 <div class="post_container">
@@ -52,9 +51,34 @@
                             <p>Настройки</p>
                         </div>
                     </section>
-
+                    <section class="main__message">
+                        <div class="search">
+                            <img src="./assets/лупа.svg" alt="">
+                            <p>Поиск...</p>
+                        </div>
+                        <hr>
                         
-                        
+                        <div class="profile__message">
+                            <div class="profile__message-logo">
+                                <img src="./assets/User_circle.svg" alt="">
+                            </div>
+                            <div class="description">
+                                <div class="description__up">
+                                    <p>Имя/фамилия пользователя</p>
+                                    <p>9:14</p>
+                                </div>
+                                <div class="description__down">
+                                    <div class="desc__left">
+                                        <img width="25" src="./assets/User_circle.svg" alt="">
+                                        <p>сообщение пользователю</p>
+                                    </div>
+                                    <div>
+                                        <p>3</p>                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="nostyle">
                         
                     </section>
                     <section class="main__chats">
@@ -86,7 +110,15 @@
                 </div>
             </div>
         </main>
-
-
+        <img class="kot" src="./assets/кот.png" alt="">
+        <div class="setting__menu">
+            <ul class="menu__list">
+                <li class="menu__list-item"><a href="#">Поменять тему</a></li>
+                <li class="menu__list-item"><a href="#">Выбор языка</a></li>
+                <li class="menu__list-item"><a href="#">Справка</a></li>
+                <li class="menu__list-item"><a href="#">Написать разработчикам</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
